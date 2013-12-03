@@ -93,30 +93,15 @@ img {
 		<div id="content" data-role="content">
 			<div class="swiper-container">
 				<div class="swiper-wrapper">
-					<div class="swiper-slide red-slide">
-						<div class="title">Slide 1</div>
-					</div>
-					<div class="swiper-slide blue-slide">
-						<div class="title">Slide 2</div>
-					</div>
-					<div class="swiper-slide orange-slide">
-						<div class="title">Slide 3</div>
-					</div>
-					<div class="swiper-slide green-slide">
-						<div class="title">Slide 4</div>
-					</div>
-					<div class="swiper-slide pink-slide">
-						<div class="title">Slide 5</div>
-					</div>
-					<div class="swiper-slide red-slide">
-						<div class="title">Slide 6</div>
-					</div>
-					<div class="swiper-slide blue-slide">
-						<div class="title">Slide 7</div>
-					</div>
-					<div class="swiper-slide orange-slide">
-						<div class="title">Slide 8</div>
-					</div>
+					<div class="swiper-slide">
+        				<img src="<c:url value='/resources/css/images/1.jpg' />" alt="">
+     			    </div>
+     			    <div class="swiper-slide">
+        				<img src="<c:url value='/resources/css/images/2.jpg' />" alt="">
+     			    </div>
+     			    <div class="swiper-slide">
+        				<img src="<c:url value='/resources/css/images/3.jpg' />" alt="">
+     			    </div>
 				</div>
 				<div class="pagination"></div>
 			</div>
